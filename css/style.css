@@ -8,7 +8,7 @@
  }
 
  body {
-   background-color: #090e20;
+   background-color: #20212d;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -16,13 +16,13 @@
  }
 
  .hide {
-   display: none;
+   display: none !important;
  }
 
  .container {
    min-width: 400px;
    min-height: 400px;
-   background-color: #202243;
+   background-color: #333;
    border-radius: 10px;
    padding: 2rem;
  }
@@ -30,6 +30,7 @@
  /* IMC form */
  #calc-container h2 {
    text-align: center;
+   color: #dbce12;
    margin-bottom: 2rem;
  }
 
@@ -66,7 +67,9 @@
  button {
    text-transform: uppercase;
    padding: 1rem 1.5rem;
-   background-color: #f44236;
+   background-color: #d4c631;
+   font-size: 1rem;
+   font-weight: bold;
    border: none;
    opacity: 0.9;
    color: #ffff;
@@ -79,13 +82,14 @@
  }
 
  #clear-btn {
-   background-color: #444;
+   background-color: rgb(104, 102, 102);
  }
 
  /* Table */
 
  #result-container {
    text-align: center;
+   color: #ccc;
  }
  
  #imc-number {
@@ -97,6 +101,11 @@
    font-size: 1.4rem;
    color: #ccc;
  }
+
+ #result-container h3 {
+  margin-top: 1rem;
+  color: #dfdfdf;
+}
 
  #result-container{
    display: flex;
@@ -120,7 +129,6 @@
    margin-bottom: 0.5rem;
    padding-bottom: 0.5rem;
    border-bottom: 1px solid #444;
-   text-align: center;
  }
 
  .table-header h4,
